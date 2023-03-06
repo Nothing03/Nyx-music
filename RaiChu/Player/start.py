@@ -39,9 +39,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
         await message.reply_text(
-        f"""Hello {message.from_user.mention()}, My name is {BOT_NAME}.
-I'm a telegram streaming bot with some useful features.
-Feel free to add me to your groups.
+        f"""𝗛𝗲𝗹𝗹𝗼 {message.from_user.mention()}, 𝗠𝘆 𝗻𝗮𝗺𝗲 𝗶𝘀 {BOT_NAME}. 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 !! 𝗨𝗶 𝗗𝗲𝘀𝗶𝗴𝗻 𝗕𝘆 [𝗡𝘆𝗰](https//t.me/Fake_Friendship_Fake_smile)\𝗻\𝗻𝗗𝗲𝗽𝗹𝗼𝘆 𝗢𝗻 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗩𝗽𝘀 𝗦𝗲𝗿𝘃𝗲𝗿 𝗘𝗻𝗷𝗼𝘆 𝗟𝗮𝗴 𝗙𝗿𝗲𝗲 𝗦𝗼𝗻𝗴 𝗪𝗶𝘁𝗵 𝗦𝘂𝗽𝗲𝗿 𝗦𝗽𝗲𝗲𝗱'𝗫 :) 
         """,
         reply_markup=InlineKeyboardMarkup(
             [
