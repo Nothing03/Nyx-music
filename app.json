@@ -8,7 +8,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/BotDuniyaXd",
-    "repository": "https://github.com/AMANTYA1/RaiChuMusic",
+    "repository": "https://github.com/Nothing03/Nyx-music",
     "success_url": "https://t.me/BotDuniyaXd",
     "env": {
         "API_ID": {
