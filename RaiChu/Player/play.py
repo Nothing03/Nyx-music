@@ -155,7 +155,7 @@ async def play(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 await m.reply_photo(
                     photo=f"https://te.legra.ph/file/4d71c4bd3802a77b9c597.jpg",
-                    caption=f"**❰ 𝗟𝗮𝗰𝗲𝘆 𝗠𝘂𝘀𝗶𝗰 𝗫 ❱ 𝗡𝗼𝘄 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟\n\n👤𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆:{requester}**",
+                    caption=f"**❰  𝗡𝗬𝗫 𝗠𝗨𝗦𝗜𝗖 𝗧𝗚 ❱ 𝗡𝗼𝘄 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟\n\n👤𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆:{requester}**",
                     reply_markup=InlineKeyboardMarkup(buttons),
                 )
              except Exception as e:
@@ -205,7 +205,7 @@ async def play(c: Client, m: Message):
                         )
                         await m.reply_photo(
                             photo=queueimg,
-                            caption=f"**❰ 𝗟𝗮𝗰𝗲𝘆 𝗠𝘂𝘀𝗶𝗰 𝗫 ❱ 𝗦𝗼𝗻𝗴 ❤️ 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 💫🤟**:{requester}",
+                            caption=f"**❰  𝗡𝗬𝗫 𝗠𝗨𝗦𝗜𝗖 𝗧𝗚 ❱ 𝗦𝗼𝗻𝗴 ❤️ 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 💫🤟**:{requester}",
                             reply_markup=InlineKeyboardMarkup(keyboard),
                         )
                     else:
@@ -225,7 +225,7 @@ async def play(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             await m.reply_photo(
                                 photo=playimg,
-                                caption=f"**❰ 𝗟𝗮𝗰𝗲𝘆 𝗠𝘂𝘀𝗶𝗰 𝗫 ❱ 𝗡𝗼𝘄 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟\n\n👤𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆:{requester}**",
+                                caption=f"**❰  𝗡𝗬𝗫 𝗠𝗨𝗦𝗜𝗖 𝗧𝗚 ❱ 𝗡𝗼𝘄 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟\n\n👤𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆:{requester}**",
                                 reply_markup=InlineKeyboardMarkup(keyboard),
                             )
                         except Exception as ep:
